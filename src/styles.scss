@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~font-awesome/css/font-awesome.css";
+
+.glowOn, .glowOff {
+  border: 1px solid #AAA;
+}
+
+.glowOn {
+  box-shadow: 0 0 5px 2px green;
+}
+
+.glowOff {
+  box-shadow: 0 0 5px 2px red;
+}
